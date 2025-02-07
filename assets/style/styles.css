@@ -1,0 +1,149 @@
+body {
+    background-image:
+    linear-gradient(
+        rgba(59, 82, 73, 0.5), 
+        rgba(164, 180, 148, 0.5)
+    ), 
+    url('../img/bockground-body-2.png');
+    background-size: cover;
+    color: white;
+}
+
+.sue-ellen-francisco {
+    font-family: "Sue Ellen Francisco", serif;
+    font-weight: 600 !important;
+    color: white;
+    font-style: normal;
+}
+
+.blockquote-footer {
+    color: white;
+}
+
+.inter-md {
+    font-family: "Inter", serif;
+    font-weight: 800 !important;
+    color: white;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+.inter {
+    font-family: "Inter", serif;
+    font-weight: 400 !important;
+    color: white;
+    font-style: normal;
+    /* font-size: 1.5vw; */
+}
+
+.inter-lg {
+    font-family: "Inter", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 800 !important;
+    color: white;
+    font-style: normal;
+    font-size: 10vw;
+    display: ruby-text;
+}
+
+
+section.dark {
+    background-color: #34252F;
+}
+
+.terminal {
+    width: -webkit-fill-available;
+    background-color: #000;
+    color: #0f0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2);
+}
+
+.terminal-header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.terminal-header .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.red {
+    background-color: #ff5f56;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
+}
+
+.terminal-content {
+    padding: 10px;
+}
+
+.command {
+    color: #0f0;
+}
+
+.output {
+    color: #fff;
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background-color: #0f0;
+    margin-left: 5px;
+    animation: blink 1s infinite;
+    vertical-align: text-bottom;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.terminal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.show-spaces {
+    white-space: break-spaces;
+}
+
+/* .touch-top {
+    top: -25px;
+    position: relative;
+} */
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.white-svg {
+    filter: invert(100%);
+}
+
+.navbar-text:hover img {
+    filter: unset;
+
+}
