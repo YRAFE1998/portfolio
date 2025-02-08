@@ -5,7 +5,9 @@
 .mid-between { justify-content: space-between; }
 .mid-around { justify-content: space-around; }
 .mid-evenly { justify-content: space-evenly; }
+.mt-4 { margin-top:  4px;  }
 .p-4 { padding:  4px;  }
+.p-5 { padding:  5px;  }
 .row { display: flex; flex-direction: row; }
 .text-left { text-align: left; }
 .text-center { text-align: center; }

@@ -1,19 +1,21 @@
 body {
     background-image:
     linear-gradient(
-        rgba(59, 82, 73, 0.5), 
-        rgba(164, 180, 148, 0.5)
+        rgba(59, 82, 73, 0.9), 
+        rgba(2, 3, 1, 0.9)
     ), 
-    url('../img/bockground-body-2.png');
+    url('../img/background-3.png');
     background-size: cover;
     color: white;
 }
 
-.sue-ellen-francisco {
-    font-family: "Sue Ellen Francisco", serif;
-    font-weight: 600 !important;
-    color: white;
+.roboto-header {
+    font-family: "Roboto", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
     font-style: normal;
+    /* font-variation-settings:
+      "wdth" 100; */
 }
 
 .blockquote-footer {
@@ -119,7 +121,7 @@ section.dark {
     }
 }
 
-.terminal-container {
+section#terminal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,4 +148,25 @@ nav {
 .navbar-text:hover img {
     filter: unset;
 
+}
+
+section#projects{
+    background-image: url('../img/project-bg.png');
+    background-size: cover;
+    color: black;
+    font-family: "Just Another Hand", serif;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+section#projects h4 {
+    font-weight: 100 !important;
+}
+
+button.accordion-button{
+    background: transparent !important;
+}
+
+.accordion-item{
+    background: transparent !important;
 }
