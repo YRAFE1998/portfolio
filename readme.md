@@ -12,10 +12,10 @@ Passionate and experienced Software Engineer with a strong background in backend
 ## Skills
 - **Programming:** Java, JavaScript, TypeScript, Python (basic)
 - **Frameworks:** Spring Boot, Angular, React, Liferay
-- **Databases:** Oracle, MongoDB, JOOQ (SQL)
-- **DevOps & Cloud:** Docker, Kubernetes, AWS, Jenkins, Keycloak
+- **Databases:** SQL, MongoDB, JPA, JOOQ
+- **DevOps & Cloud:** Docker, Kubernetes, Redhat Openshift, AWS, Jenkins
 - **Event-Driven & Messaging:** Kafka, JMS, Apache Camel
-- **Other:** OAuth2, Redis, GraphQL, CI/CD, REST APIs, Microservices, BPM & Workflow Automation
+- **Other:** OAuth2, Keycloak, Redis, GraphQL, CI/CD, REST APIs, Microservices, BPM & Workflow Automation
 
 ## Work Experience
 
@@ -25,7 +25,7 @@ Passionate and experienced Software Engineer with a strong background in backend
 #### **Loyalty Platform (Oct 2023 – July 2024)**
 - Built a large-scale loyalty system using **Spring Boot, Angular, Kafka, and JOOQ**.
 - Designed an **event-driven architecture** and refactored microservices to adopt the **Listen to Yourself** pattern.
-- Led the development of an authentication and authorization layer using **Keycloak and OAuth2**.
+- Lead the development of an authentication and authorization layer using **Keycloak and OAuth2**.
 - Implemented **CI/CD pipelines**, wrote **unit tests**, and created detailed documentation.
 - Provided mentorship to junior engineers and conducted technical meetings with stakeholders.
 
@@ -37,7 +37,7 @@ Passionate and experienced Software Engineer with a strong background in backend
 
 #### **IBM BPM & ODM Project (Nov 2021 – Feb 2023)**
 - Developed a **credit lending process management system** for a major bank in Egypt.
-- Led the migration from **IBM BPM to BAW**, resolving complex debugging challenges.
+- Lead the migration from **IBM BPM to BAW**, resolving complex debugging challenges.
 - Automated testing using **UI Path RPA, SOAP UI, and Excel-driven test cases**.
 - Built BPM dashboards to **debug production issues efficiently**.
 - Promoted to **Software Engineer in early 2023**, leading the project for its final six months.
