@@ -1,14 +1,15 @@
 body {
     background-image:
-    linear-gradient(
-        rgba(59, 82, 73, 0.9), 
-        rgba(2, 3, 1, 0.9)
-    ), 
-    url('../img/background-3.png');
+        linear-gradient(rgba(59, 82, 73, 0.9),
+            rgba(2, 3, 1, 0.9)),
+        url('../img/background-3.png');
     background-size: cover;
-    color: white;
+    background-attachment: fixed;
 }
 
+.intro{
+    color: white;
+}
 .roboto-header {
     font-family: "Roboto", serif;
     /* font-optical-sizing: auto; */
@@ -112,7 +113,9 @@ section.dark {
 }
 
 @keyframes blink {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 1;
     }
 
@@ -150,8 +153,21 @@ nav {
 
 }
 
-section#projects{
-    background-image: url('../img/project-bg.png');
+@media screen and (min-width: 600px) {
+    .nav-link{
+        font-size: 1rem !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    .nav-link {
+        font-size: 1.5rem !important;
+    }
+}
+    
+section#projects {
+    /* background-image: url('../img/project-bg.png'); */
+    /* background-color: #3b5249; */
     background-size: cover;
     color: black;
     font-family: "Just Another Hand", serif;
@@ -163,10 +179,10 @@ section#projects h4 {
     font-weight: 100 !important;
 }
 
-button.accordion-button{
+button.accordion-button {
     background: transparent !important;
 }
 
-.accordion-item{
+.accordion-item {
     background: transparent !important;
 }
