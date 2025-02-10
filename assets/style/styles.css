@@ -1,19 +1,25 @@
 body {
     background-image:
-        linear-gradient(rgba(59, 82, 73, 0.9),
-            rgba(2, 3, 1, 0.9)),
+        /* linear-gradient(rgba(244, 236, 225, 0.9),
+            rgba(2, 3, 1, 0.1)),*/
         url('../img/background-3.png');
+    /* background: radial-gradient(rgb(244, 236, 225),rgba(2, 3, 1, 0.9)); */
+    /* background-color: rgba(244, 236, 225,0); */
+
+    box-shadow: inset 0 0 0 2000px rgba(46, 64, 53, 0.8);
+
     background-size: cover;
     background-attachment: fixed;
 }
 
-.intro{
+.intro {
     color: white;
 }
-.roboto-header {
-    font-family: "Roboto", serif;
+
+.inter-header {
+    font-family: "Inter", serif;
     /* font-optical-sizing: auto; */
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     /* font-variation-settings:
       "wdth" 100; */
@@ -154,29 +160,25 @@ nav {
 }
 
 @media screen and (min-width: 600px) {
-    .nav-link{
+    .nav-link {
         font-size: 1rem !important;
     }
 }
+
 @media screen and (max-width: 600px) {
-    
+
     .nav-link {
         font-size: 1.5rem !important;
     }
 }
-    
-section#projects {
-    /* background-image: url('../img/project-bg.png'); */
-    /* background-color: #3b5249; */
-    background-size: cover;
-    color: black;
-    font-family: "Just Another Hand", serif;
-    border-radius: 5px;
-    text-decoration: underline;
+
+.hand-writing {
+    font-family: "Patrick Hand", serif;
+    /* border-radius: 5px; */
 }
 
-section#projects h4 {
-    font-weight: 100 !important;
+.hand-writing h4 {
+    /* font-weight: 100 !important; */
 }
 
 button.accordion-button {
@@ -185,4 +187,31 @@ button.accordion-button {
 
 .accordion-item {
     background: transparent !important;
+}
+
+ol {
+    padding: 0;
+}
+
+li::marker {
+    margin-left: 5px;
+}
+
+.bg-dark {
+    color: white !important;
+}
+
+.accordion-button {
+    color: unset;
+}
+
+section#projects h4 {
+    text-decoration: underline;
+}
+
+.info-icon {
+    fill: white;
+    color: white;
+    width: 30px;
+    filter: invert(88%) sepia(100%) saturate(2%) hue-rotate(188deg) brightness(111%) contrast(97%);
 }
