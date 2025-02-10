@@ -1,5 +1,18 @@
 $primary: #5FAF98;
-$dark: #2E4035 ;
+$dark: #2E4035;
 $light: #F4ECE1;
 $secondary: #E67E6B;
+
+.dark-section {
+    @extend .bg-dark;
+    @extend .text-light;
+    // @extend .hand-writing;
+}
+
+.light-section {
+    @extend .bg-light;
+    @extend .text-dark;
+    // @extend .hand-writing;
+}
+
 @import '../../bootstrap-main/scss/bootstrap.scss';
