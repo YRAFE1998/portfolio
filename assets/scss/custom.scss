@@ -2,6 +2,13 @@ $primary: #5FAF98;
 $dark: #2E4035;
 $light: #F4ECE1;
 $secondary: #E67E6B;
+$accordion-color:                         #ffffff;
+$accordion-button-color:                  #ffffff;;
+$accordion-button-active-color:           #ffffff;
+
+$accordion-icon-color:                    #ffffff;
+$accordion-icon-active-color:             #ffffff;
+
 
 .dark-section {
     @extend .bg-dark;
@@ -14,5 +21,6 @@ $secondary: #E67E6B;
     @extend .text-dark;
     // @extend .hand-writing;
 }
+
 
 @import '../../bootstrap-main/scss/bootstrap.scss';
