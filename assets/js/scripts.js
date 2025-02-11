@@ -1,4 +1,5 @@
 const cvURL = "./Yousef Refaat CV.pdf"
+
 const downloadCv = () => {
     const downloadLink = document.createElement('a');
     downloadLink.href = cvURL;
@@ -8,9 +9,19 @@ const downloadCv = () => {
     downloadLink.click();
 }
 
-console.log(window.jQuery ? "jQuery is loaded" : "jQuery is NOT loaded");
+const intersectionCallback = (entries) => {
+    console.log("entries ", entries)
+    for (const entry of entries) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            
+        }
+    }
+}
 
+const observer = new IntersectionObserver(intersectionCallback);
 
-$('.carousel').carousel({
-    interval: false,
-});
+const items = document.querySelectorAll('section');
+for (const item of items) {
+    observer.observe(item);
+}
