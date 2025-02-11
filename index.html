@@ -80,13 +80,13 @@
                         </div>
                         <div><span class="output">sql> SELECT NAME, LEVEL FROM SKILLS OFFSET 0 LIMIT 5;</span></div>
                         <div><span class="output">+----------------+----------------+</span></div>
-                        <div><span class="output show-spaces">| NAME           | LEVEL          |</span></div>
+                        <div><span class="output show-spaces">| NAME | LEVEL |</span></div>
                         <div><span class="output">+----------------+----------------+</span></div>
-                        <div><span class="output show-spaces">| Java           | Skilled        |</span></div>
-                        <div><span class="output show-spaces">| Spring         | Skilled        |</span></div>
-                        <div><span class="output show-spaces">| Databases      | Skilled        |</span></div>
-                        <div><span class="output show-spaces">| React          | Skilled        |</span></div>
-                        <div><span class="output show-spaces">| Design Patterns| Skilled        |</span></div>
+                        <div><span class="output show-spaces">| Java | Skilled |</span></div>
+                        <div><span class="output show-spaces">| Spring | Skilled |</span></div>
+                        <div><span class="output show-spaces">| Databases | Skilled |</span></div>
+                        <div><span class="output show-spaces">| React | Skilled |</span></div>
+                        <div><span class="output show-spaces">| Design Patterns| Skilled |</span></div>
                         <div><span class="output">+----------------+----------------+</span></div>
                         <div><span class="command">$</span> <span class="cursor"></span></div>
                     </div>
@@ -98,7 +98,7 @@
     <section id="projects" class="mt-4 p-3 p-md-5 dark-section hand-writing">
         <div class="container">
             <div>
-                <h1 class="text-decoration-underline mb-5 title">
+                <h1 class="text-decoration-underline mb-5 title mt-1">
                     Work Experience
                 </h1>
                 <div class="accordion" id="accordionExample">
@@ -325,50 +325,287 @@
 
     <section id="technologies" class="p-3 p-md-5 light-section hand-writing">
         <div class="container align-items-center text-center">
-            <h1 class="text-decoration-underline mb-5 title">
+            <h1 class="text-decoration-underline mb-5 title mt-1">
                 Technologies
             </h1>
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/java.png" alt="">
+
+            <div id="small-sized-carousel" class="carousel carousel-dark slide d-lg-none" data-bs-interval="20000"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/java.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/spring.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/oracle.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/mysql.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/angular.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/kafka.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/oAuth.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/docker.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/kubernetes.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/openshift.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/aws.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/bpm.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/keycloak.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/gql.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/python.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/react.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/wordpress.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/typescript.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/redis.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/liferay.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="p-2 tech-icon">
+                            <img src="./assets/img/tech-icons/jenkins.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/spring.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/oracle.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/mysql.png" alt="">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#small-sized-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#small-sized-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/angular.png" alt="">
+
+            <div id="carouselExampleIndicators" class="carousel carousel-dark slide d-none d-lg-block"
+                data-bs-interval="20000" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/java.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/spring.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/oracle.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/mysql.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/angular.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/kafka.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/oAuth.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/docker.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/kubernetes.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/openshift.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/aws.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/bpm.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/keycloak.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/gql.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/python.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/react.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/wordpress.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/typescript.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/redis.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/liferay.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="p-2 tech-icon">
+                                    <img src="./assets/img/tech-icons/jenkins.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/kafka.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/oAuth.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/docker.png" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/kubernetes.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/openshift.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/aws.png" alt="">
-                </div>
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/img/tech-icons/bpm.png" alt="">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -376,7 +613,7 @@
     <section id="contact-information" class="p-3 p-md-5 dark-section hand-writing">
         <div class="container">
             <div>
-                <h1 class="text-decoration-underline mb-5 title">
+                <h1 class="text-decoration-underline mb-5 title mt-1">
                     Contact Information
                 </h1>
                 <div class="row mt-4">
@@ -432,6 +669,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
 
+    <script src="./assets/js/jquery.js"></script>
     <script src="./bundled-bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/scripts.js"></script>
 </body>

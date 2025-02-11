@@ -193,7 +193,7 @@ ol {
     padding: 0;
 }
 
-.accordion ol li{
+.accordion ol li {
     margin-left: 15px;
 }
 
@@ -216,22 +216,50 @@ section#projects h4 {
     filter: invert(88%) sepia(100%) saturate(2%) hue-rotate(188deg) brightness(111%) contrast(97%);
 }
 
-ul{
+ul {
     padding: 0;
 }
 
-section#technologies img{
+section#technologies img {
     max-height: 120px;
     max-width: 120px;
     padding: 10px;
     transition: 1s;
 }
 
-section#technologies img:hover{
+section#technologies img:hover {
     max-height: 200px;
     max-width: 200px;
 }
 
-.title{
+.title {
     text-align: left !important;
+}
+
+.tech-icon {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: unset;
+}
+
+
+
+#small-sized-carousel .tech-icon{
+    height: 300px !important;
+    width: 300px !important;
+}
+
+#small-sized-carousel img{
+    max-width: 250px !important;
+    max-width: 250px !important;
+    /* min-width: 220px !important; */
+    min-height: 220px !important;
+    transition: none;
 }
